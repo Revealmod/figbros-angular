@@ -1,3 +1,3 @@
 # FigBros-Angular
 
-Build with Angular.
+Built with Angular.
