@@ -1,0 +1,9 @@
+@media (max-width: 991px) {
+    fb-about {
+        border: none!important;
+    }
+
+    fb-retail {
+        border: none!important;
+    }
+}

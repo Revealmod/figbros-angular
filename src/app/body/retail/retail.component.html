@@ -1,0 +1,8 @@
+<div class="w-100 h-100 d-flex flex-column">
+    <h5 class="text-center my-3">Retail Stores</h5>
+    <div class="container-fluid flex-grow-1 d-flex flex-column mt-3">
+      <div [ngClass]="classes.row" *ngFor="let row of items">
+        <div [ngClass]="classes.col" *ngFor="let col of row">{{col}}</div>
+      </div>
+    </div>
+</div>

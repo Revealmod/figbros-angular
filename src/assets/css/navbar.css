@@ -1,0 +1,12 @@
+.mobile-only-flex {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .mobile-only-flex {
+        display: flex;
+    }
+    .desktop-only-flex {
+        display: none;
+    }
+}

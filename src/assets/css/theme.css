@@ -1,0 +1,35 @@
+:root {
+    --fb-red: #EE3537;
+    --fb-orange: #FF902A;
+    --fb-white: #FFFFFF;
+    --fb-dark: #2B2E34;
+    --fb-black: #000000;
+}
+
+.bg-fb-red {
+    background-color: var(--fb-red)!important;
+}
+
+.bg-fb-white {
+    background-color: var(--fb-white)!important;
+}
+
+.bg-fb-dark {
+    background-color: var(--fb-dark)!important;
+}
+
+.bg-fb-orange {
+    background-color: var(--fb-orange)!important;
+}
+
+.text-fb-red {
+    color: var(--fb-red)!important;
+}
+
+.text-fb-white {
+    color: var(--fb-white)!important;
+}
+
+.text-fb-orange {
+    color: var(--fb-orange)!important;
+}
