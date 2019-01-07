@@ -6,6 +6,8 @@ function handleLogin() {
         if (data.success) {
             console.log("Login succeeded! Multipass URL: ");
             console.log(data.shopify_url);
+
+            window.location.href = data.shopify_url;
         } else {
             console.log("Login failed with reason: ");
             console.log(data.info);
