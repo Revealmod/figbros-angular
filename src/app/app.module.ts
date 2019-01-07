@@ -10,6 +10,7 @@ import { BodyComponent } from './body/body.component';
 import { AboutComponent } from './body/about/about.component';
 import { RetailComponent } from './body/retail/retail.component';
 import { LoginComponent } from './body/login/login.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { LoginComponent } from './body/login/login.component';
     BodyComponent,
     AboutComponent,
     RetailComponent,
-    LoginComponent
+    LoginComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
