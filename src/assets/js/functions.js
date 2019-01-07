@@ -1,6 +1,6 @@
 function handleLogin() {
     $.post("http://api.sh.dev.figbros.com/login", {
-        username: $("#login-username").val(),
+        email: $("#login-username").val(),
         password: $("#login-password").val()
     }, (data) => {
         if (data.success) {
