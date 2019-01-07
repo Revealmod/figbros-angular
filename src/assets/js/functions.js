@@ -1,7 +1,7 @@
 function handleLogin() {
     $.post("http://api.sh.dev.figbros.com/login", {
-        username: $("#login-username").text(),
-        password: $("#login-password").text()
+        username: $("#login-username").val(),
+        password: $("#login-password").val()
     }, (data) => {
         if (data.success) {
             console.log("Login succeeded! Multipass URL: ");
